@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import picture from "../public/next.svg";
 
 export default function Navbar() {
   return (
@@ -8,7 +7,8 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
             <Link className="navbar-brand" href="/">
-                Doo Inventory
+                <Image src="/image/nextjs-icon.png" width={50} height={50} alt="logo"></Image>
+                &nbsp; Doo Inventory
             </Link>
           <button
             className="navbar-toggler"
