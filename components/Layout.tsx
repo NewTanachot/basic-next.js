@@ -12,7 +12,7 @@ export default function Layout({ children, pageProps }: LayoutProps) {
     return (
         <>
             <Navbar></Navbar>
-                <div className="container">{children}</div>
+                <main className="container">{children}</main>
             <Footer></Footer>
         </>
     );

@@ -34,8 +34,13 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/products">
-                  Products
+                <Link className="nav-link" href="/staticProducts">
+                  StaticSide-Products
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" href="/serverProducts">
+                  ServerSide-Products
                 </Link>
               </li>
               {/* <li className="nav-item dropdown">
